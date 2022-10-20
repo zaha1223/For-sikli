@@ -1,6 +1,3 @@
-// for (i = 0; i < 10; i++) {
-//   console.log(i);
-// }
 let even = 0;
 let odd = 0;
 
@@ -15,8 +12,6 @@ function findNumber(num) {
 }
 findNumber(1000);
 
-console.log(even, odd);
-
 if (even > odd) {
   let result = Math.round(even / odd);
   console.log(result);
@@ -24,3 +19,5 @@ if (even > odd) {
   let result = Math.round(odd / even);
   console.log(result);
 }
+
+console.log(even, odd);
